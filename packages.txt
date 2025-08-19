@@ -1,8 +1,31 @@
-# System packages for Streamlit Cloud
+# System packages for Streamlit Cloud (OpenCV/MediaPipe/WebRTC)
+# Core video/graphics
 ffmpeg
-libsm6
-libxext6
 libgl1
 libglib2.0-0
+libsm6
+libxext6
+
+# WebRTC codecs and SRTP
 libopus0
+libopus-dev
 libvpx6
+libvpx-dev
+libsrtp2-1
+libsrtp2-dev
+
+# FFmpeg libraries
+libavdevice-dev
+libavfilter-dev
+libavformat-dev
+libavcodec-dev
+libavutil-dev
+libswresample-dev
+libswscale-dev
+
+# Build tools & headers
+build-essential
+pkg-config
+cmake
+libffi-dev
+libssl-dev
