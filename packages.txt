@@ -1,0 +1,8 @@
+# System packages for Streamlit Cloud
+ffmpeg
+libsm6
+libxext6
+libgl1
+libglib2.0-0
+libopus0
+libvpx6
